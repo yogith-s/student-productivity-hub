@@ -1,0 +1,55 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Productivity Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>StudyHub</h2>
+    <p>Student Productivity Dashboard</p>
+</header>
+
+<main>
+    <section class="welcome">
+        <h1>Make Today Count!</h1>
+        <p>Organize your tasks. Achieve your goals.</p>
+    </section>
+
+    <section class="dashboard">
+        <div class="card">
+            <h3>Total Tasks</h3>
+            <h2 id="total">0</h2>
+        </div>
+        <div class="card">
+            <h3>Completed</h3>
+            <h2 id="completed">0</h2>
+        </div>
+        <div class="card">
+            <h3>Remaining</h3>
+            <h2 id="remaining">0</h2>
+        </div>
+    </section>
+
+    <section class="tasks">
+        <h2>My Daily Tasks</h2>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>Student Productivity Hub | Built with HTML, CSS and JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
